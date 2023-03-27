@@ -20,7 +20,7 @@ describe("home", () => {
   it("should test card click to open modal", () => {
     render(<Home />);
 
-    const openModalButton = screen.getByTestId("card-element");
-    fireEvent.click(openModalButton);
+    const cardDetails = screen.getByTestId("card-element");
+    fireEvent.click(cardDetails);
   });
 });
