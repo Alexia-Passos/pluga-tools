@@ -1,0 +1,31 @@
+.homePaginationContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.homePaginationButton{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #424242;
+  border-radius: 10%;
+  border: 1px solid #cddce8;
+  box-shadow: 0 2px 2px 0 #cddce8;
+  padding: 5px;
+  margin: 10px;
+}
+
+.homePaginationButton:hover,.homePaginationButton:active, .homePaginationButton:focus{
+  color: #fff;
+  background-color: #0ea7ff;
+  
+}  
+
+@media (max-width: 400px)
+{
+  .homePaginationContainer {
+    align-items: center;
+    width: 100%;
+  }
+  
+}

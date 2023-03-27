@@ -1,0 +1,165 @@
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #424242;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cardContent{
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #cddce8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 1rem 2rem;
+}
+
+.cardContent:hover {
+  border-color: #0ea7ff; 
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.cardIcon{
+  width: 7rem;
+  height: 4rem;
+  margin: 4rem 0 1rem;
+}
+
+.cardName{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  color: #424242;
+  padding: 5px;
+}
+
+.closeModal{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #fff;
+  border: #fff;
+}
+
+.firstSectionContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.iconContent{
+  width: 9rem;
+  height: 9rem;
+  margin: 0 20px 10px;
+  padding: 5px;
+  border: 1px solid #0ea7ff;
+  border-radius: 5px;
+}
+
+.lastViewContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.lastView{
+  width: 33%;
+  height: 120px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkButton{
+  width: 7.5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #0ea7ff;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  right: 30%;
+  border: 1px solid #cddce8;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem;
+  width: 40%;
+  height: auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(181, 178, 178, 0.8);
+}
+
+.modalContent{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent .cardIcon{
+  width: 9rem;
+  height: 9rem;
+  margin: 0px;
+}
+
+.modalContent .cardName{
+  font-size: 1.2em;
+}
+
+.modalContent .lastView .cardIcon{
+  width: 5rem;
+  height: 5rem;
+
+}
+
+.modalContent .lastView .cardName{
+  font-size: 1em;
+
+}
+
+@media (max-width: 600px)
+{
+  .firstSectionContent{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal {
+    width: 80%;
+    height: 80%;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+  }
+  
+}
